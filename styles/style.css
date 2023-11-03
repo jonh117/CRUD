@@ -1,3 +1,7 @@
+*{
+    border:solid red 2 px;
+}
+
 .header-container {
     background-color: #000;
     width: 100%;
@@ -20,4 +24,52 @@
     padding-right: 50px;
 }
 
-.citas
+.citas-section {
+    display: flex;
+    justify-content: center;
+}
+.citas-card {
+    width: 400px;
+    background-color: #246ba3;
+    height: 400px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.tittle-text-container {
+    
+}
+.title-text {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+} 
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.name-client {
+    border-radius: 5px;
+    width: 350px;
+}
+
+.email {
+    border-radius: 5px;
+    width: 200px;
+}
+
+.tel {
+    border-radius: 5px;
+    width: 100px;
+}
