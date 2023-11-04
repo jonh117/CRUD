@@ -278,6 +278,104 @@ body {
     font-size: 14px;
 }
 
+.footer-container {
+    padding: 0 10px;
+    background-color: #004B7F;
+    margin-top: 300px;
+}
+.first-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-div {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 0px 25px 0px 35px;
+    font-size: 15px;
+}
+
+
+.container-left-links {
+    display: flex;
+    gap: 25px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.social-link {
+    padding: 10px;
+    
+}
+
+.address {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.address-p1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.address-p2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+.logo-geek-footer {
+    width: 200px;
+    padding: 35px;
+    border: 1px 
+
+}
+
+
+.social-link {
+    display:flex; 
+    height: 75px;
+    align-items: center;      
+}    
+
+.logo-geek-facebook {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-geek-instagram {
+    width: 100px;
+    height: 55px;
+}
+
+.logo-geek-youtube {
+    width: 65px;
+    height: 50px;
+    margin-left: 11px;
+}
+
+.logo-geek-twitter {
+    width: 55px;
+    height: 55px;
+
+}
+
+.second-div__consulta-terminos {
+    align-self: flex-end;
+}
+
 @media (max-width:430px){
     
 .header-container {
@@ -605,5 +703,113 @@ body {
 .title {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
+}
+
+
+.footer-container {
+    padding: 0 10px;
+    background-color: #004B7F;
+    margin-top: 500px;
+}
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.second-div {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+    align-items: start;
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+
+.container-left-links {
+    display: flex;
+    gap: 25px;
+
+}
+
+.container-right-links {
+    display: flex;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.social-link {
+    padding: 10px;
+    
+}
+
+.address {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.address-p1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.address-p2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+.logo-geek-footer {
+    width: 150px;
+    padding: 35px;
+    border: 1px 
+
+}
+
+
+.social-link {
+    display:flex; 
+    height: px;
+    align-items: center;      
+}    
+
+.logo-geek-facebook {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.logo-geek-instagram {
+    width: 70px;
+    height: 38px;
+}
+
+.logo-geek-youtube {
+    width: 45px;
+    height: 36px;
+    margin-left: 11px;
+}
+
+.logo-geek-twitter {
+    width: 35px;
+    height: 35px;
+
+}
+
+.second-div__consulta-terminos {
+    align-self: flex-end;
 }
 }
