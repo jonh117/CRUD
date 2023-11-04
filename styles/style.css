@@ -1,6 +1,6 @@
-*{
-    border:solid red 2 px;
-}
+/* *{
+    border: 2px solid red;
+} */
 
 .header-container {
     background-color: #000;
@@ -27,11 +27,13 @@
 .citas-section {
     display: flex;
     justify-content: center;
+    background-color: #246ba3;
+    height: 535px;
 }
 .citas-card {
     width: 400px;
-    background-color: #246ba3;
-    height: 400px;
+    background-color: #fff;
+    height: 330px;
     margin: 50px;
     border-radius: 15px;
 }
@@ -39,14 +41,17 @@
 .tittle-text-container {
     
 }
+
 .title-text {
     font-family: 'Hind Siliguri', sans-serif;
-    color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
 }
 
 .form-container {
+    display: flex;
+
 } 
 
 .form {
@@ -59,9 +64,27 @@
     height: 100%;
 }
 
+.name-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+
 .name-client {
     border-radius: 5px;
+    width: 340px;
+}
+
+.email-tel-container {
     width: 350px;
+    display: flex;
+    justify-content: space-between
+}
+
+.email-container {
+    display: flex;
+    flex-direction:column;
 }
 
 .email {
@@ -69,7 +92,67 @@
     width: 200px;
 }
 
+.tel-container {
+    display: flex;
+    flex-direction:column;
+    
+}
+
 .tel {
     border-radius: 5px;
-    width: 100px;
+    width: 130px;
+}
+
+.model-damage-container {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.model-container {
+    display: flex;
+    flex-direction: column;
+}
+.model {
+    border-radius: 5px;
+    width: 130px;
+}
+
+.damage-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.damage {
+    border-radius: 5px;
+    width: 200px;
+}
+
+.date-hour-container {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.date-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    width: 170px;
+
+}
+
+.hour-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hour {
+    width: 160px;
+}
+
+.button-container {
+    padding: 20px;
 }
