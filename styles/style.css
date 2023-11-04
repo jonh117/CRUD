@@ -1,6 +1,3 @@
-/* *{
-    border: 2px solid red;
-} */
 
 body {
     background-color: #246ba3;
@@ -283,6 +280,16 @@ body {
 
 @media (max-width:430px){
     
+.header-container {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}  
+
 .citas-card {
     width: 250px;
     background-color: #fff;
@@ -386,9 +393,6 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
 }
-
-
-
 
 .name-client {
     font-family: 'Hind Siliguri', sans-serif;
@@ -601,4 +605,5 @@ body {
 .title {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
+}
 }

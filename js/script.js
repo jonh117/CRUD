@@ -1,3 +1,4 @@
+
 function getCitaData() {
     const names = document.querySelector('.name-client').value;
     const email = document.querySelector('.email').value;
